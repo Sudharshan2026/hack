@@ -43,15 +43,18 @@ const Hero = () => {
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
-            <div className="mb-8">
+            <div className="mb-4">
               <GooeyText
-                texts={["HackerTronix 1.0", "Hack The Future", "Code The Unknown", "Build Tomorrow"]}
-                morphTime={4}
-                cooldownTime={0.15}
+                texts={["HackTronix 1.0","Arav"]}
+                morphTime={1}
+                cooldownTime={0.25}
                 className="font-bold"
                 textClassName="bg-clip-text text-transparent bg-gradient-to-r from-indigo-300 via-white/90 to-rose-300"
               />
             </div>
+            <p className="text-base sm:text-lg md:text-xl text-white/40 mb-8 leading-relaxed font-light tracking-wide max-w-xl mx-auto px-4">
+            .
+            </p>
             
             <p className="text-base sm:text-lg md:text-xl text-white/40 mb-8 leading-relaxed font-light tracking-wide max-w-xl mx-auto px-4">
               A 24-hour hackathon exploring the upside down world of technology
